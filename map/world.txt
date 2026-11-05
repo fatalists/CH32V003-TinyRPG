@@ -1,0 +1,57 @@
+;  Tiny RPG -- zone: town, meadow, forest and lake
+;
+;zone   meadow
+;south  desert
+;north  snow
+;safe   1 1 27 15
+;ground 0
+;mobs   0 1 2
+;
+;  One character = one 8x8 tile. Lines starting with ';' are ignored.
+;  All map rows must have the same length; the width is a power of two.
+;
+;    .  ground           T  tree            /  roof, left
+;    :  road             n  rock            ^  roof, middle
+;    ,  flowers          #  stone wall      \  roof, right
+;    o  pebbles          ~  water           |  house wall
+;    "  tall grass       I  signpost        O  wall with window
+;    u  puddle           C  chest           D  door
+;    @  hero start       W  well
+;
+;  A house is drawn right in the map and looks the same in the game:
+;
+;     /^\        /^^\
+;     ODO        |ODO
+;
+;  Walkable: . : , o " u @          Solid: everything else
+;
+;  After editing, regenerate src/worldmap.h from all six maps (see README) and rebuild.
+;
+;         1         2         3         4         5         6
+;123456789012345678901234567890123456789012345678901234567890123
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT:::T
+T.(__)./^^\.:./^^\.(__).:..TTTT..TTTT.......:::T
+T.hhDh.OODO.:.OODO.hhDh.:..TTTT..TTTT..TTTT.:::T
+T,,,,,,,,,,,:,,,,,,,,,,,:..TTTT..TTTT..TTTT.:::T
+T.:::::::::::::::::::::::........TTTT..TTTT.:::T
+T./^^\.(__).:./^^\./^^\.:...TTTT............:::T
+T.OODO.hhDh.:@S<>O.OODO.:...TTTT..TTTTT.TTTT:::T
+T,,,,,,,,,,,:,,,,,,,,,,,:...TTTT..TTTTT.TTTT:::T
+T.:::::::::::::::::::::::.........TTTTT.TTTT:::T
+T.(__)./^^\.:./^^\.(__).:..TTTT...TTTTT.....:::T
+T.hhDh.OODO.:.OODO.hhDh.:..TTTT.............:::T
+T,,,,,,,,,,,:,,,,,,,,,,,:,,,,,,,,,,,,,,,,,,,:::T
+T::::::::::::::::::::::::::::::::::::::::::::::T
+T,,,,,,,,,,,,,,,,,,:::,,,I,,,,,,,W,,,,,,,,,,...T
+T..".."....."......:::......TTTT....TTTTT....n.T
+T""..."ooooo"......:::......TTTT....TTTTT......T
+T...ooo~~~~~ooo"..":::..............TTTTT......T
+T..o~~~~~~~~~~~o".":::........TTTTT.TTTTT......T
+T.oo~~~~~~~~~~~oo..:::........TTTTT......TTT...T
+T.o~~~~~~~~~~~~~o"":::........TTTTT......TTT...T
+T.oo~~~~~~~~~~~oo".:::........TTTTT......TTT...T
+T..o~~~~~~~~~~~o...:::...........TTTTT...TTT...T
+T"".ooo~~~~~ooo....:::..TTTT.....TTTTT.......".T
+T..".".ooooo.".....:::..TTTT.....TTTTT.........T
+T....""....""......:::..TTTT.....TTTTT.........T
+TTTTTTTTTTTTTTTTTTT:::TTTTTTTTTTTTTTTTTTTTTTTTTT

@@ -1,0 +1,16 @@
+;  Tiny RPG -- zone: Valhalla, a narrow corridor in the sky
+;
+;zone   valhalla
+;south  snow
+;ground 14
+;mobs   8
+;boss   9 119 4
+;
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+G.......L...............L...............L...............L...............L...............L...............L......................G
+G..............................................................................................................................G
+G..............................................................................................................................G
+G..............................................................................................................................G
+G..............................................................................................................................G
+G..@....L...............L...............L...............L...............L...............L...............L......................G
+GG....GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG

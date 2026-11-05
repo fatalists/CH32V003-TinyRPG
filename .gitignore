@@ -1,0 +1,9 @@
+# build output (the shipped firmware is bin/tiny_rpg.bin and bin/tiny_rpg.hex)
+bin/*.elf
+bin/*.lst
+bin/*.map
+bin/*.asm
+*.o
+
+__pycache__/
+.DS_Store

@@ -1,0 +1,35 @@
+;  Tiny RPG -- zone: snowfield
+;
+;zone   snow
+;south  meadow
+;north  valhalla
+;ground 11
+;door   icecave 6 21
+;mobs   5 6 7
+;
+HHHHHHHHHHHHHHHHHH....HHHHHHHHHHHHHHHHHH
+H......................................H
+H......PPP.............................H
+H....PPPPPPP...rrr............PPP......H
+H...PPPPPPPPP..rrr..........PPPPPPP....H
+H..PPPPPPPPPPP.rrr.........PPPPPPPPP...H
+H..PPPPPPPPPPP............PPPPPPPPPPP..H
+H..PPPPPPPPPPP............PPPPPPPPPPP..H
+H...PPPPPPPPP.......C.....PPPPPPPPPPP..H
+H....PPPPPPP...............PPPPPPPPP...H
+H......PPP..................PPPPPPrrr..H
+H.............................PPPrrrrr.H
+H................................rrrrr.H
+H................................rrrrr.H
+H.................................rrr..H
+H.........PPP..........................H
+H......PPPPPPPPP................PPP....H
+H......PPPPPPPPP..............PPPPPPP..H
+H.....PPPPPPPPPPP.............PPPPPPP..H
+H..rrrPPPPPPPPPP.............PPPPPPPPP.H
+H.rrrrrPPPPPPPPP..........rrr.PPPPPPP..H
+H.rrrrD...PPP.............rrr.PPPPPPP..H
+H.rrrrr...................rrr...PPP....H
+H..rrr..............@..................H
+H......................................H
+HHHHHHHHHHHHHHHHH......HHHHHHHHHHHHHHHHH

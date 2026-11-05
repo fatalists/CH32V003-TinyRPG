@@ -1,0 +1,15 @@
+;  Tiny RPG -- dungeon: sandcave
+;
+;zone   sandcave
+;ground 7
+;boss   10 27 3
+;door   desert 2 6
+;
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+n..............................n
+n..............................n
+n..............................n
+n..............................n
+n..............................n
+n.D............................n
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn

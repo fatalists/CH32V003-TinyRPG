@@ -1,0 +1,15 @@
+;  Tiny RPG -- dungeon: icecave
+;
+;zone   icecave
+;ground 11
+;boss   11 27 3
+;door   snow 2 6
+;
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+H..............................H
+H..............................H
+H........LL..........LL........H
+H........LL..........LL........H
+H..............................H
+H.D............................H
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
