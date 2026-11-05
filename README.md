@@ -142,4 +142,10 @@ buys anything back for a quarter of its value.
   project with no connection to the makers of Dark Souls, Elden Ring, Ragnarok Online
   or Dota 2.
 
-Licensed under the GNU General Public License v3.0, see [LICENSE](LICENSE).
+The game's code, tools, art and maps are licensed under the GNU General Public License
+v3.0, see [LICENSE](LICENSE).
+
+Stefan Wagner's files listed above (`src/driver.h`, `src/system.*`, `src/gpio.h`,
+`src/i2c_tx.*`, `src/oled_min.*`, `src/ch32v003.h`, `ld/ch32v003.ld` and the makefile
+base) stay under the license of his project,
+[Creative Commons Attribution-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0/).
